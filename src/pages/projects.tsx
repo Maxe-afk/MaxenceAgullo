@@ -1,9 +1,11 @@
 import './projects.css'
 import { SiteCard } from '../components/addli';
+import clickerPreview from "/pokeclickerPreview.png"
+import dexPreview from "/pokedexSitePreview.png"
 
 const sites = [
-    { name: "Pokéclicker", image: "/pokeclickerPreview.png", link: "https://maxe-afk.github.io/lille-js-pokeclicker/" },
-    { name: "Pokédex régionaux", image: "/pokedexSitePreview.png", link: "https://maxe-afk.github.io/pokedex-site.github.io/" }
+    { name: "Pokéclicker", image: clickerPreview, link: "https://maxe-afk.github.io/lille-js-pokeclicker/" },
+    { name: "Pokédex régionaux", image: dexPreview, link: "https://maxe-afk.github.io/pokedex-site.github.io/" }
 ]
 
 function Projects() {
