@@ -1,0 +1,38 @@
+figure{
+        max-width: 15rem;
+        max-height: 11rem;
+        color: whitesmoke;
+        padding: 3rem;
+        backdrop-filter: blur(8px);
+        border-radius: 3rem;
+        border: solid 2px #1a1919;
+        animation: slideInLeft 1s ease-out forwards;
+        text-justify: auto;
+        gap: .5rem;
+        display: flex;
+        flex-direction: column;
+}
+
+figure img{
+    border-radius: .3rem;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.figureContainer{
+    display: flex;
+}
+
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100vw);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,49 @@
+.backgroundContainer2{
+    background-image: url('/JapaneseBed.png');
+    width: 100%;
+    height: 100vh;
+}
+
+.CenterText{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.CenterText p{
+    max-width: 40%;
+    max-height: 40%;
+    color: whitesmoke;
+    padding: 3rem;
+    backdrop-filter: blur(15px);
+    border-radius: 3rem;
+    border: solid 2px #b03f0b;
+    animation: slideIn 1s ease-out forwards;
+    overflow-y: scroll;
+    text-justify: auto;
+}
+
+.CenterText p::-webkit-scrollbar {
+    width: 0rem;
+}
+
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .CenterText p{
+        max-width: 80%;
+    }
+}

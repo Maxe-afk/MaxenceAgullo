@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  height: 4rem;
+  padding: 0.8rem;
+  background: none;
+  position: fixed;
+}
+
+header button {
+  width: 5rem;
+  height: 2rem;
+  color: whitesmoke;
+  border-radius: 2rem;
+  font-weight: 300;
+  border: solid 2px #b03f0b;
+  box-shadow: 1px 1px 5px black;
+  backdrop-filter: blur(4px);
+}
+
+header button:hover {
+  box-shadow: 0px 0px 10px #b03f0b;
+}
+header button:active {
+  box-shadow: inset 0px 0px 5px black;
+}
+
