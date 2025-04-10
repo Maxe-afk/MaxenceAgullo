@@ -4,7 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     color: whitesmoke;
-    padding: 2rem;
     backdrop-filter: blur(8px);
     border-radius: 3rem;
     border: solid 2px #b03f0b;
@@ -12,13 +11,14 @@
     margin-bottom: 5rem;
     padding: .8rem;
     position: fixed;
-    margin-top: 730px;
+    margin-top: 700px;
     margin-left: 20px;
 }
 
 .TitleContainer h1{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1rem;
+    padding: .5rem;
 }
 
 @media screen and (max-width: 780px){

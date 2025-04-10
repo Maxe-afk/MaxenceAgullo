@@ -12,13 +12,14 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    padding: rem;
+    
 }
 
-.CenterText p{
+.CenterText div{
     max-width: 40%;
     max-height: 40%;
-    color: whitesmoke;
-    padding: 3rem;
+    padding: 4rem;
     backdrop-filter: blur(15px);
     border-radius: 3rem;
     border: solid 2px #b03f0b;
@@ -27,7 +28,12 @@
     text-justify: auto;
 }
 
-.CenterText p::-webkit-scrollbar {
+.CenterText div p{
+    color: whitesmoke;
+    padding-top: 2rem;
+}
+
+.CenterText div::-webkit-scrollbar {
     width: 0rem;
 }
 
